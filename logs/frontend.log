@@ -1,0 +1,17 @@
+2026-05-16 02:02:48.604 | INFO     | frontend.main:main:61 — NexoraLauncher frontend starting...
+2026-05-16 02:02:50.610 | INFO     | frontend.main:start_backend_server:30 — Backend not detected, starting...
+2026-05-16 02:02:50.610 | INFO     | frontend.main:start_backend_server:32 — Starting backend server...
+2026-05-16 02:02:52.122 | INFO     | frontend.main:start_backend_server:47 — Backend started successfully
+2026-05-16 02:02:52.169 | INFO     | frontend.main:main:70 — PyQt6 application created
+2026-05-16 02:02:52.173 | INFO     | frontend.app:__init__:206 — Initializing NexoraLauncherApp
+2026-05-16 02:02:52.173 | DEBUG    | frontend.app:__init__:213 — APIClient initialized with base_url=http://127.0.0.1:8000/api/v1
+2026-05-16 02:02:52.203 | INFO     | frontend.pages.instances_page:__init__:136 — InstancesPage initialized
+2026-05-16 02:02:52.205 | DEBUG    | frontend.services.api_client:get:25 — GET http://localhost:8000/api/v1/auth/profile
+2026-05-16 02:02:52.385 | INFO     | frontend.app:__init__:257 — NexoraLauncherApp initialized successfully
+2026-05-16 02:02:52.471 | INFO     | frontend.main:main:75 — Main window shown
+2026-05-16 02:02:52.565 | DEBUG    | frontend.services.api_client:get:30 — GET http://localhost:8000/api/v1/auth/profile -> 200
+2026-05-16 02:02:52.567 | DEBUG    | frontend.services.api_client:get:25 — GET http://localhost:8000/api/v1/instances/
+2026-05-16 02:02:52.829 | DEBUG    | frontend.services.api_client:get:30 — GET http://localhost:8000/api/v1/instances/ -> 200
+2026-05-16 02:02:55.940 | INFO     | frontend.app:closeEvent:279 — Closing NexoraLauncherApp
+2026-05-16 02:02:55.941 | DEBUG    | frontend.app:closeEvent:283 — API client closed
+2026-05-16 02:02:55.948 | INFO     | frontend.main:main:85 — Stopping backend...
